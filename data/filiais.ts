@@ -18,7 +18,7 @@ export const filiais: Filial[] = [
     lat: -19.74674029577659,
     lng: -47.93915410279788,
     link: "https://maps.app.goo.gl/fyeeoFGsbZKB9XEu6",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "2",
@@ -28,7 +28,7 @@ export const filiais: Filial[] = [
     lat: -19.309723882362004,
     lng: -47.53408813068095,
     link: "https://maps.app.goo.gl/4M9MvdKPrLpbiegs5",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "3",
@@ -38,7 +38,7 @@ export const filiais: Filial[] = [
     lat: -18.94758276124383,
     lng: -47.01414452883512,
     link: "https://maps.app.goo.gl/fFhios9dDTEe1Wwd8",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "4",
@@ -48,7 +48,7 @@ export const filiais: Filial[] = [
     lat: -19.501366202940318,
     lng: -46.5500492,
     link: "https://maps.app.goo.gl/bH4tTTLZPDqEQ3yx8",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "5",
@@ -58,7 +58,7 @@ export const filiais: Filial[] = [
     lat: -19.575693180359735,
     lng: -46.954577357670225,
     link: "https://maps.app.goo.gl/jyxtBeDQN77QFJgi9",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "6",
@@ -68,7 +68,7 @@ export const filiais: Filial[] = [
     lat: -19.353443401392177,
     lng: -46.130930584407984,
     link: "https://maps.app.goo.gl/DzJVgHy9Hn5GhFxR8",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "7",
@@ -78,7 +78,7 @@ export const filiais: Filial[] = [
     lat: -18.987639853586494,
     lng: -47.4699099962926,
     link: "https://maps.app.goo.gl/XsR3rL4tbc8ddQkc9",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "8",
@@ -88,7 +88,7 @@ export const filiais: Filial[] = [
     lat: -18.6206581049706121,
     lng: -46.5117439,
     link: "https://maps.app.goo.gl/6iEMCYAjG8WmN2um9",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "9",
@@ -98,7 +98,7 @@ export const filiais: Filial[] = [
     lat: -18.483346130629013,
     lng: -47.202062399999996,
     link: "https://maps.app.goo.gl/uLiejz5g2PWbLsmy6",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "10",
@@ -108,7 +108,7 @@ export const filiais: Filial[] = [
     lat: -19.773565592758338,
     lng: -47.93589340970933,
     link: "https://maps.app.goo.gl/X86d192AibphuJ1a6",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "11",
@@ -118,7 +118,7 @@ export const filiais: Filial[] = [
     lat: -20.73928087976301,
     lng: -46.59562507116487,
     link: "https://maps.app.goo.gl/jfV4bCUmtXbEnFar9",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "12",
@@ -128,7 +128,7 @@ export const filiais: Filial[] = [
     lat: -20.970523827095946,
     lng: -46.130458600000004,
     link: "https://maps.app.goo.gl/woF4xVQtqCUPomfw9",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "13",
@@ -138,7 +138,7 @@ export const filiais: Filial[] = [
     lat: -20.46166500023169,
     lng: -45.968429945872074,
     link: "https://maps.app.goo.gl/S1g5TkkesmQRLTJC7",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "14",
@@ -148,7 +148,7 @@ export const filiais: Filial[] = [
     lat: -20.017331749704148,
     lng: -45.9855067,
     link: "https://maps.app.goo.gl/a9BcQQsscCR7VptF6",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "15",
@@ -158,7 +158,7 @@ export const filiais: Filial[] = [
     lat: -19.93211132022286,
     lng: -48.377358,
     link: "https://maps.app.goo.gl/Y1KbwHgJAwynPrJt9",
-    icone: "orange"
+    icone: "orange",
   },
   {
     id: "16",
@@ -168,6 +168,6 @@ export const filiais: Filial[] = [
     lat: -19.872176921154335,
     lng: -47.43103069814453,
     link: "https://maps.app.goo.gl/wvqYYikGG1nqZBHm6",
-    icone: "orange"
-  }
+    icone: "orange",
+  },
 ];

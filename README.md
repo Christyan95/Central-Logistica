@@ -1,15 +1,16 @@
 <div align="center">
 
-# 🌿 HortSoy — Central Logística
+# 💎 Central Logística | HortSoy
 
-**Inteligência Geoespacial e Otimização de Rotas para o Agronegócio**
+**Plataforma Web de Roteirização Imersiva e Segura (Enterprise Grade)**
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199903?logo=leaflet)](https://leafletjs.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-ff0055?logo=framer)](https://motion.dev/)
-[![Status](https://img.shields.io/badge/Status-Senior_Master_Verified-075000)]()
+[![Next.js](https://img.shields.io/badge/Next.js-16.2.9-black?logo=next.js)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React-19.2.7-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.6-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Leaflet](https://img.shields.io/badge/Leaflet-GeoSpatial-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/)
+
+"A essência do alto padrão na malha logística. Inteligência geográfica e precisão tática."
 
 </div>
 
@@ -17,211 +18,92 @@
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Tecnologias](#-tecnologias)
-- [Arquitetura](#-arquitetura)
-- [Estrutura de Arquivos](#-estrutura-de-arquivos)
-- [Algoritmo de Roteirização](#-algoritmo-de-roteirização)
-- [Paleta de Cores](#-paleta-de-cores)
-- [Performance](#-performance)
-- [Instalação](#-instalação)
-- [Deploy na Vercel](#-deploy-na-vercel)
-- [Scripts Disponíveis](#-scripts-disponíveis)
-- [SEO](#-seo)
-- [Licença](#-licença)
+- [💎 Visão do Projeto](#-visão-do-projeto)
+- [🚀 Stack Tecnológica](#-stack-tecnológica)
+- [🌍 Monitoramento Climático e UX](#-monitoramento-climático-e-ux)
+- [🎨 Arquitetura de Roteirização Interativa](#-arquitetura-de-roteirização-interativa)
+- [🏛️ Arquitetura (Clean Code)](#%EF%B8%8F-arquitetura-clean-code)
+- [🛡️ Cibersegurança e AppSec (CSP & Hardening)](#%EF%B8%8F-cibersegurança-e-appsec-csp--hardening)
 
 ---
 
-## 🎯 Sobre o Projeto
+## 💎 Visão do Projeto
 
-O **HortSoy Central Logística** é uma plataforma de inteligência geoespacial de alto nível projetada para a gestão e otimização da malha logística da corporação. O sistema resolve o desafio de conectar múltiplas unidades produtivas e centros de distribuição da forma mais eficiente possível, reduzindo custos operacionais e tempo de percurso.
-
-### Destaques
-
-- 📍 **Geolocalização de Precisão** — 16 unidades HortSoy geocodificadas com coordenadas exatas.
-- 🛣️ **Otimização Inteligente** — Algoritmo TSP (Nearest Neighbor) para reordenação automática de trajetos.
-- 📋 **Relatório de Telemetria** — Resumo detalhado com distâncias por trecho (legs) e tempo estimado.
-- 🚛 **Exportação para GPS** — Integração direta com Google Maps para navegação em tempo real.
-- 🌓 **Interface Adaptativa** — Design Premium com suporte a Dark e Light themes.
-- ⚡ **Performance Senior** — Mapa com carregamento dinâmico (Lazy Loading) e zero gray-void.
+A plataforma da **Central Logística HortSoy** foi projetada para resolver o complexo desafio de conectar múltiplas unidades produtivas e centros de distribuição da forma mais eficiente e fluida possível. Empregando design _Glassmorphism_, navegação tática sem atrito e renderização cartográfica imersiva (Framer Motion), o projeto traz uma experiência de roteirização inigualável no mercado agroindustrial corporativo.
 
 ---
 
-## ✨ Funcionalidades
+## 🚀 Stack Tecnológica
 
-- 🌐 **Mapas Dual-Layer** — Alternância entre OpenStreetMap (Standard) e CartoDB (Voyager/Dark).
-- 🍱 **Sidebar Colapsável** — Gerenciamento de rotas e unidades sem obstruir a visão tática.
-- 🔍 **Foco Inteligente** — Centralização automática e zoom dinâmico ao selecionar unidades.
-- 📏 **Métricas Reais** — Integração com API OSRM para distâncias baseadas em malha rodoviária real.
-- 📱 **Responsive Design** — Interface otimizada para tablets e desktops de monitoramento.
+### Interface e Interatividade Cartográfica
 
----
+- **Framework Core**: Next.js 16.2.9 (App Router) e React 19.
+- **Geoprocessamento Visual**: Leaflet (Motor Interativo) e React-Leaflet.
+- **Estilização**: Tailwind CSS (Design System nativo) e Lucide-React.
+- **Animações Fluidas**: Framer Motion (Transições de painéis, redimensionamento dinâmico e micro-interações de Hover).
+- **Gerenciamento de Estado**: Zustand (Store Global ultraleve) e TanStack Query v5 (Server-State e Cache Management).
 
-## 🛠 Tecnologias
+### Qualidade de Código e DevSecOps
 
-### Core
-| Tecnologia | Versão | Uso |
-|---|---|---|
-| [Next.js](https://nextjs.org/) | 15.x | Framework principal com App Router e SSR |
-| [React](https://react.dev/) | 19.x | Biblioteca de UI declarativa |
-| [TypeScript](https://www.typescriptlang.org/) | 5.x | Tipagem estática e segurança de master-code |
-
-### Mapas e Geoprocessamento
-| Tecnologia | Uso |
-|---|---|
-| [Leaflet](https://leafletjs.com/) | Motor de renderização de mapas interativos |
-| [React Leaflet](https://react-leaflet.js.org/) | Abstração React para componentes cartográficos |
-| [OSRM API](http://project-osrm.org/) | Motor de roteirização externa para distâncias reais |
-
-### Styling e Animação
-| Tecnologia | Uso |
-|---|---|
-| [Framer Motion](https://motion.dev/) | Animações de interface, modais e transições |
-| [Lucide React](https://lucide.dev/) | Iconografia técnica e profissional |
-| [Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Variáveis CSS para temas dinâmicos (Zero Overhead) |
+- **Linguagem**: TypeScript (Strict Mode).
+- **Validação e Tipagem de Borda**: Zod para segurança estrita nas rotas de API (BFF).
+- **Auditoria de Código Base**: Zero avisos de Linter e dependências com _Overrides_ rigorosos aplicados, garantindo ausência de brechas conhecidas e memory leaks no ciclo de vida do mapa em Leaflet.
 
 ---
 
-## 🏗 Arquitetura
+## 🌍 Monitoramento Climático e UX
 
-```
-User Input (Sidebar Selection) 
-    → Local State (RouteIds Update)
-        → TSP Heuristic (Nearest Neighbor Sorting)
-            → OSRM API Call (Road Network Geometry)
-                → Map Renderer (GeoJSON + Marker Updates)
-                    → Final Report (Distance + Duration Stats)
-```
+A plataforma foi arquitetada com suporte nativo a dados meteorológicos hiper-locais integrados diretamente na visualização da malha logística:
 
-### Padrões Implementados
-- **Dynamic Imports** — O componente de Mapa é carregado apenas no cliente (`ssr: false`).
-- **Composition Pattern** — Separação clara entre lógica de roteirização e componentes de UI.
-- **Theme Provider via CSS Custom Properties** — Troca de tema sem re-renderização pesada.
-- **Strict Boundaries** — Travamento de coordenadas mundiais e viscosidade de limite.
+- **Inteligência Desacoplada (Open-Meteo)**: Os widgets climáticos das unidades reagem em tempo real, fornecendo temperatura (°C) e probabilidade de precipitação (%) de forma assíncrona.
+- **Estratégia de Cache Agressiva**: Para preservar a banda e os limites da API externa, toda requisição de clima possui _Stale-Time_ customizado via React Query e revalidação de 15 minutos em Edge no Next.js (BFF), impedindo gargalos de _rate-limit_ no Client-Side.
 
 ---
 
-## 📂 Estrutura de Arquivos
+## 🎨 Arquitetura de Roteirização Interativa
 
-```
-📦 HortSoy-Logistica/
-├── 📂 app/
-│   ├── layout.tsx         # Configuração de Metadados e Fontes (HortSoy Brand)
-│   ├── page.tsx           # Dashboard principal e controle de estado
-│   └── globals.css        # Design System (Tonalidades de Verde e Temas)
-│
-├── 📂 components/
-│   ├── Map.tsx            # Motor Leaflet com GeoJSON e Interatividade
-│   └── Sidebar.tsx        # Seletor de unidades e visualização de rota
-│
-├── 📂 data/
-│   └── filiais.ts         # Base de dados geocodificada (16 Unidades)
-│
-├── 📂 public/
-│   ├── favicon.png        # Ícone de caminhão minimalista
-│   └── hortsoy-logo.png   # Identidade oficial da marca
-│
-├── 📂 utils/
-│   └── routing.ts         # Algoritmos TSP e Integração OSRM/Google Maps
-│
-├── tailwind.config.ts     # Configurações de cores (Verde #075000)
-├── next.config.ts         # Otimizações de Build Next.js
-└── package.json           # Dependências verificadas
+O front-end conta com um ecossistema inteligente de seleção de unidades:
+
+- **Fluxo de Seleção Cronológico (Checklists)**: O menu de navegação lateral rastreia os cliques do usuário em ordem estrita. Ao invés do algoritmo forçado que ignorava a vontade humana, a arquitetura agora constrói a rota tática exatamente no fluxo cronológico planejado pelo despachante.
+- **Redimensionamento Tático (Collapsible Layout)**: A barra lateral retrai-se inteligentemente em ambos os eixos (para um quadrado minimalista no topo), liberando 95% do canvas de renderização com animações aveludadas de _Border Radius_.
+- **Relatórios Flutuantes**: Modal imersiva em sobreposição contendo os _legs_ (trechos) destrinchados com quilometragem precisa da malha real (OSRM), duração estrita e atalho nativo para execução _turn-by-turn_ direto no Google Maps.
+
+---
+
+## 🏛️ Arquitetura (Clean Code)
+
+O projeto adota uma estrutura modular focada em escalabilidade, tipagem estrita, desacoplamento e isolamento de responsabilidades (_Enterprise Grade_):
+
+```text
+/
+├── app/                  # Rotas Dinâmicas do Next.js (App Router)
+│   ├── api/              # Backend For Frontend (BFF) - Roteamento & Clima
+│   └── page.tsx          # Ponto de injeção da Store e QueryClient
+├── components/           # Componentes Modulares Isolados
+│   ├── Map.tsx           # Cartografia Isolada via dynamic import()
+│   ├── Sidebar.tsx       # Controle Tático e Flow de Usuário
+│   └── WeatherWidget.tsx # Integração Meteorológica Assíncrona
+├── store/                # Estado Global (Zustand) Desacoplado
+├── providers/            # React Query Configuration Boundary
+├── data/                 # Fontes de Verdade e Dicionários Geográficos
+└── utils/                # Lógicas puras de cálculo de tempo
 ```
 
 ---
 
-## 🧮 Algoritmo de Roteirização
+## 🛡️ Cibersegurança e AppSec (CSP & Hardening)
 
-O sistema utiliza a heurística **Nearest Neighbor** (Vizinho Mais Próximo) para resolver o Problema do Caixeiro Viajante (TSP) de forma eficiente em tempo real:
+Nenhuma beleza visual e performance justificam uma vulnerabilidade estrutural. O código-fonte da Central Logística opera sob rigorosos padrões de _Security by Design_:
 
-1. Inicia no ponto de origem selecionado.
-2. Calcula a distância de Haversine para todas as unidades não visitadas.
-3. Move para a unidade mais próxima disponível.
-4. Repete até que todos os pontos estejam na sequência otimizada.
-5. Solicita a geometria rodoviária exata via OSRM.
-
----
-
-## 🎨 Paleta de Cores
-
-Definida em `globals.css` para garantir a identidade visual **HortSoy**:
-
-| Token | Hex | Uso |
-|---|---|---|
-| `Primary` | `#075000` | **Verde Floresta** — Botões, títulos, logos |
-| `Secondary` | `#0d8c00` | **Verde Lima** — Ícones, destaques, rotas |
-| `Background` | `#f0f2f5` | **Cinza Suave** — Fundo Light Theme |
-| `Dark BG` | `#0a0a0c` | **Preto Profundo** — Fundo Dark Theme |
-| `Accent` | `#0d8c00` | **Verde Vivo** — Marcadores de unidades |
+1. **Proxy Híbrido (Middleware Strict CSP)**
+   - Proteção de Borda: O `proxy.ts` (Next.js) possui regras rigorosas de Content Security Policy, blindando a aplicação contra _Clickjacking_ e bloqueando qualquer script invasivo (XSS). Conexões externas só são permitidas para URLs estritamente pré-autorizadas (`api.open-meteo.com` e OSRM).
+2. **Eficiência e Proteção de Sub-Dependências (Overrides NPM)**
+   - O repositório monitora de perto as árvores secundárias do ecossistema. Modificadores arquiteturais no `package.json` neutralizam falhas em dependências (como PostCSS Injection), blindando os processos de Build sem comprometer a compilação.
+3. **Gateway Seguro via Zod no BFF**
+   - A requisição para a API pública de trânsito (OSRM) não parte do navegador do cliente para evitar sequestro de carga (SSRF). Toda montagem do itinerário vai para o backend via POST HTTPS seguro, que filtra o array via Schema do **Zod** antes de processar as chamadas pesadas remotamente.
 
 ---
 
-## ⚡ Performance
-
-### Otimizações Senior
-- ✅ **Dynamic Tiles** — Tiles carregadas de forma otimizada conforme o nível de zoom.
-- ✅ **Vector Rendering** — Geometria de rota via GeoJSON para fluidez visual rápida.
-- ✅ **Debounced Interactions** — Controle de zoom e pan otimizados para evitar lag.
-- ✅ **Asset Compression** — Favicon e logos otimizados para carregamento instantâneo.
-
----
-
-## 🚀 Instalação
-
-### Pré-requisitos
-- **Node.js** ≥ 18.x
-- **npm** ≥ 9.x
-
-### Setup
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/Christyan95/Central-Logistica-HortSoy.git
-cd Central-Logistica-HortSoy
-
-# 2. Instale as dependências
-npm install
-
-# 3. Execute o servidor de desenvolvimento
-npm run dev
-```
-
----
-
-## ▲ Deploy na Vercel
-
-O projeto está configurado para deploy "Zero Config" na Vercel:
-
-1. Conecte seu repositório GitHub à Vercel.
-2. O framework Next.js será detectado automaticamente.
-3. Clique em **Deploy**.
-
----
-
-## 📜 Scripts Disponíveis
-
-| Script | Comando | Descrição |
-|---|---|---|
-| `dev` | `npm run dev` | Inicia o servidor de desenvolvimento |
-| `build` | `npm run build` | Compila para produção |
-| `start` | `npm run start` | Inicia o servidor de produção |
-| `lint` | `npm run lint` | Executa o ESLint para auditoria de código |
-
----
-
-## 🔍 SEO
-
-Configurado no `layout.tsx` para máxima visibilidade:
-
-- ✅ **Título Dinâmico**: Central Logística HortSoy.
-- ✅ **Description**: Sistema inteligente de gestão e geolocalização.
-- ✅ **Mobile-Ready**: Viewport configurada para dispositivos de monitoramento.
-- ✅ **Favicon Temático**: Visualização clara em abas de múltiplos dashboards.
-
----
-
-## 👤 Autor & Arquiteto
-
-**Christyan Silva**
+<div align="center">
+© 2026 <strong>Central Logística | HortSoy</strong>.
+</div>

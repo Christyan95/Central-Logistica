@@ -19,20 +19,20 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: '/(.*)',
+        source: "/(.*)",
         headers: [
           {
-            key: 'Content-Security-Policy',
-            value: cspHeader.replace(/\n/g, ''),
+            key: "Content-Security-Policy",
+            value: cspHeader.replace(/\n/g, ""),
           },
           {
-            key: 'X-DNS-Prefetch-Control',
-            value: 'on'
-          }
+            key: "X-DNS-Prefetch-Control",
+            value: "on",
+          },
         ],
       },
-    ]
-  }
+    ];
+  },
 };
 
 export default nextConfig;
